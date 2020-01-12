@@ -1,8 +1,18 @@
 version: '3'
 services:
   tex:
+    restart: always
     image: paperist/alpine-texlive-ja
     container_name: tex
     tty: true
     volumes:
       - ./:/workdir
+      
+  python3:
+    restart: always
+    image: python:3.7
+    container_name: 'py'
+    working_dir: '/root/'
+    tty: true
+    volumes:
+      - ./:/root
