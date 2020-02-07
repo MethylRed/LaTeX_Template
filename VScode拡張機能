@@ -1,0 +1,56 @@
+入れると便利なやつ
+
+Bracket Pair Colorizer 2
+括弧に色を付けてくれる
+
+Clock in status bar
+ステータスバー(一番下のところ)に時間を表記させる
+setting.jsonに"clock.dateFormat": "HH:MM:ss"を追加すると時:分:秒で見られる
+setting.jsonはctrl+Pでsetting.jsonと打ち込めば開ける
+
+LaTeX language support
+texファイルの言語をサポートしてくれる
+LaTeX.jsonでユーザースニペットを編集できる
+
+Japanese Language Pack for Visual Studio Code
+日本語化mod
+
+setting.jsonを晒しておく
+
+{
+   // 
+   "window.zoomLevel": -0.5,
+   "editor.fontSize": 14.5,
+   "files.autoSave": "off",
+   "editor.fontFamily": "Consolas, 'Courier New'",
+   "editor.renderLineHighlight": "all",
+   "editor.glyphMargin": true,
+   "editor.renderWhitespace": "all",
+   "editor.cursorStyle": "line",
+   "editor.rulers": [80,100],
+   "editor.minimap.enabled": false,
+   "workbench.activityBar.visible": true,
+   "workbench.colorTheme": "Default Dark+",
+   "clock.dateFormat": "HH:MM:ss",
+   
+   "terminal.integrated.fontSize": 13,
+   "files.exclude": {
+      "**/.yml": true,
+      "**/.synctex.gz": true,
+      "**/.dvi": true,
+      "**/.xlsx": true,
+      "**/.md": true
+   },
+   "editor.suggestSelection": "first",
+   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+   "python.jediEnabled": false,
+   "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+   "docker.networks.label": "NetworkName",
+   "docker.networks.description": [
+      "CreatedTime",
+      "NetworkDriver"
+   ],
+   "git.confirmSync": false
+
+
+}
