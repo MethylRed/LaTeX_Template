@@ -1,0 +1,8 @@
+python -m pip install hoge
+
+pandas
+numpy
+random
+dateutil
+matplotlib
+japanize-matplotlib
