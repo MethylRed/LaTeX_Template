@@ -1,8 +1,8 @@
 python -m pip install hoge
+python -m pip list
 
-pandas
 numpy
-random
 dateutil
+pandas
 matplotlib
 japanize-matplotlib
